@@ -1,0 +1,85 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.inputs {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.input-ult {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.boton {
+    margin-left: 10em;
+    margin-top: 10px;
+}
+
+/* Animales */
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 2fr 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    justify-items: stretch;
+    align-items: stretch;
+}
+
+.mamiferos {
+    background: rgb(255, 223, 164);
+    border: 1px solid black;
+}
+
+.mamifero {
+
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.ave {
+
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.peixe {
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.aves {
+    background: lightcoral;
+    border: 1px solid black;
+}
+
+.peixes {
+    background: lightblue;
+    border: 1px solid black;
+}
+
+.nomeCientifico {
+    font-style: italic;
+    font-size: smaller;
+}
+
+.nombreLatin {
+    text-decoration: none;
+    color: black;
+    font-style: italic;
+    font-size: smaller;
+}
+
+
+
+.img-animal {
+    width: 512px;
+    height: 512px;
+}
